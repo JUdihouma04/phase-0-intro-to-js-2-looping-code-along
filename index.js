@@ -1,13 +1,13 @@
-// Code your solutions in this file
-const writeCards = ["Guadalupe", "Ollie", "Aki"];
-
-function writeCards(cards) {
-	let i = 0;
-	while (i < cards.lenght) {
-		console.log("Wrapped ${cards[i]}and added bowl");
+function writeCards(arr, eventName) {
+	let arr1 = [];
+	for (let i = 0; i < arr.length; i++) {
+		arr1.push(`Thank you, ${arr[i]}, for the wonderful ${eventName} gift!`);
 	}
-
-	return gifts;
+	return arr1;
 }
-
-writeCards;
+function countDown(i) {
+	while (i >= 0) {
+		console.log(i);
+		i--;
+	}
+}
